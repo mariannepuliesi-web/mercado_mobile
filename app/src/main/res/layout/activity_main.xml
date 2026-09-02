@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/lbTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Mercado Online"
+            android:textColor="#1B5E20"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="🛒Faça sua compra sem sair de Casa !"
+            android:textColor="#777777"
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/carrinho"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/lbescolha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escolha seus produtos"
+            android:textColor="#222222"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <CheckBox
+            android:id="@+id/arrozCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFFFFF"
+            android:text="Arroz                         R$ 35,00"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/feijaoCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Feijão                         R$ 5,00"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:id="@+id/escovaDentesCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Escova de dentes          R$ 2,00"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:id="@+id/acucarCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Açúcar                         R$ 3,00"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:id="@+id/leiteCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Leite                           R$ 12,00"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/visualizarButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="VER TOTAL"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2E7D32"/>
+
+    </LinearLayout>
+
+</ScrollView>
